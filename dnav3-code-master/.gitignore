@@ -1,0 +1,31 @@
+# Operating Systems
+.DS_Store
+
+# User Environment
+env_user.py
+
+
+# Virtual Environments
+.venv
+venv/
+.python-version
+Pipfile
+Pipfile.lock
+
+
+# Python Artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+
+# Flask Stuff
+instance/
+.webassets-cache
+
+# Ansible retry files
+*.retry
+
+verify/iosxe_tests.txt
+verify/nfvis_tests.txt
