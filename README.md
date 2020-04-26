@@ -8,6 +8,9 @@ The following listing links to the notebooks in this repository. Topics Covered:
 We start with some basic knowledge about how to set up GNS3, download
 Cisco images and create new template in GNS3. There are a lot of 
 tutorial videos from David Bombal YouTube channel.
+- <a href="https://www.youtube.com/watch?v=Ibe3hgP8gCA" target="_blank">GNS3 installation</a>
+- <a href="https://www.youtube.com/watch?v=A0DEnMi09LY" target="_blank">GNS3 Install: VMware Workstation Pro</a>
+- <a href="https://www.youtube.com/watch?v=jhh2_PP9JLU&t=639s" target="_blank">Download Cisco IOS images and use in GNS3</a>
 - [GNS3 installation](https://www.youtube.com/watch?v=Ibe3hgP8gCA)
 - [GNS3 Install: VMware Workstation Pro](https://www.youtube.com/watch?v=A0DEnMi09LY)
 - [Download Cisco IOS images and use in GNS3](https://www.youtube.com/watch?v=jhh2_PP9JLU&t=639s)
