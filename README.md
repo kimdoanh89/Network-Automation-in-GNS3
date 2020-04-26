@@ -21,6 +21,7 @@ automation.
 [part 2](https://www.youtube.com/watch?v=_iuz6x2vBSw&t=24s)
 - [Setup lab for Network Automation in GNS3](docs/INE-Python-Network-Automation/01_Lab_setup.ipynb)
 - [Advantages of network automation](docs/INE-Python-Network-Automation/02_advantages_of_network_automation.ipynb)
+- [SSH with netmiko library in Python](docs/INE-Python-Network-Automation/03_SSH_with_netmiko.ipynb)
 
 ### 3. Network management with NETCONF/YANG
 - Configuration of CSR1000v in GNS3 video tutorials: [part 1](https://www.youtube.com/watch?v=5yypbiX1vlI),
