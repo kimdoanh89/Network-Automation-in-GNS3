@@ -28,5 +28,6 @@ automation.
 - Configuration of CSR1000v in GNS3 video tutorials: [part 1](https://www.youtube.com/watch?v=5yypbiX1vlI),
 [part 2](https://www.youtube.com/watch?v=xdIHNe2XXvM)
 - [Configuration of CSR1000v notebook](docs/Network-Management-Netconf/00_csr1000v_in_gns3.ipynb)
- 
+- [Configure ssh, netconf, restconf for cisco_ios_xe_16.6](docs/COMET/00_configure_ssh_netconf_restconf_cisco_ios_16.6.ipynb)
+- [Using ncclient to connect to router](docs/COMET/01_using_ncclient_to_connect_to_router.ipynb)
  
