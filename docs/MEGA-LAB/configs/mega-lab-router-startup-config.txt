@@ -56,45 +56,6 @@ interface Ethernet1/3
  no ip address
  shutdown
 !
-interface Serial2/0
- no ip address
- shutdown
- serial restart-delay 0
-!
-interface Serial2/1
- no ip address
- shutdown
- serial restart-delay 0
-!
-interface Serial2/2
- no ip address
- shutdown
- serial restart-delay 0
-!
-interface Serial2/3
- no ip address
- shutdown
- serial restart-delay 0
-!
-interface Serial3/0
- no ip address
- shutdown
- serial restart-delay 0
-!
-interface Serial3/1
- no ip address
- shutdown
- serial restart-delay 0
-!
-interface Serial3/2
- no ip address
- shutdown
- serial restart-delay 0
-!
-interface Serial3/3
- no ip address
- shutdown
- serial restart-delay 0
 !
 !
 no cdp log mismatch duplex
