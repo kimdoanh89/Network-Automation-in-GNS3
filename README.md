@@ -31,3 +31,6 @@ automation.
 - [Configure ssh, netconf, restconf for cisco_ios_xe_16.6](docs/COMET/00_configure_ssh_netconf_restconf_cisco_ios_16.6.ipynb)
 - [Using ncclient to connect to router](docs/COMET/01_using_ncclient_to_connect_to_router.ipynb)
  
+ 
+### 4. Mega-Lab with 200 routers + Nornir, Ansible
+- [Set up mega-lab](/docs/MEGA-LAB/00_lab_setup.ipynb)
