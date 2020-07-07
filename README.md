@@ -29,7 +29,7 @@ automation.
 [part 2](https://www.youtube.com/watch?v=xdIHNe2XXvM)
 - [Configuration of CSR1000v notebook](docs/Network-Management-Netconf/00_csr1000v_in_gns3.ipynb)
 - [Configure ssh, netconf, restconf for cisco_ios_xe_16.6](docs/COMET/00_configure_ssh_netconf_restconf_cisco_ios_16.6.ipynb)
-- [Using ncclient to connect to router](docs/COMET/01_using_ncclient_to_connect_to_router.ipynb)
+- [Using ncclient to connect to router](docs/Network-Management-Netconf/00_build_topology.ipynb)
  
  
 ### 4. Mega-Lab with 200 routers + Nornir, Ansible
