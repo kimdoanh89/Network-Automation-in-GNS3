@@ -1,7 +1,10 @@
-# CiscoDevnet networking
-This repo is learning material for the Cisco dev-net using python 
-programming tools for  network automation such as: ncclient in GNS3 
-environment.
+# Network Automation in GNS3
+This repo is for testing Network Automation tools such as python, ansible, nornir,
+NETCONF/YANG, RESTCONF, ncclient in GNS3 platform. This repo provides hand-on labs 
+from basic to advanced including:
+- Setup GNS3 lab.
+- Setup small network automation lab with 1 network automation container, one router, one switch.
+- Setup mega-lab with 200 routers, Zero Touch Provision.
  
  ## Table of Contents
 The following listing links to the notebooks in this repository. Topics Covered:
@@ -20,7 +23,7 @@ from GNS3 marketplace, set up a basic lab in GNS3 for network
 automation.
 - Download Network Automation docker container: [part 1](https://www.youtube.com/watch?v=qsXDZTPnlro), 
 [part 2](https://www.youtube.com/watch?v=_iuz6x2vBSw&t=24s)
-- [Setup lab for Network Automation in GNS3](docs/INE-Python-Network-Automation/01_Lab_setup.ipynb)
+- [Setup small lab for Network Automation in GNS3](docs/INE-Python-Network-Automation/01_Lab_setup.ipynb)
 - [Advantages of network automation with Multiple Switches](docs/INE-Python-Network-Automation/02_advantages_of_network_automation.ipynb)
 - [SSH with netmiko library in Python](docs/INE-Python-Network-Automation/03_SSH_with_netmiko.ipynb)
 
