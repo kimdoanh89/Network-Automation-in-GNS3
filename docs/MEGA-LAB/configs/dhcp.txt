@@ -1,7 +1,6 @@
 option domain-name "lab.doanh";
 option domain-name-servers 192.168.134.1;
 
-
 subnet 192.168.134.0 netmask 255.255.255.0 {
 }
 
@@ -9,6 +8,37 @@ class "R2" {
   match if (option host-name = "R2");
 }
 
+class "R3" {
+  match if (option host-name = "R3");
+}
+
+class "R4" {
+  match if (option host-name = "R4");
+}
+
+class "R5" {
+  match if (option host-name = "R5");
+}
+
+class "R6" {
+  match if (option host-name = "R6");
+}
+
+class "R7" {
+  match if (option host-name = "R7");
+}
+
+class "R8" {
+  match if (option host-name = "R8");
+}
+
+class "R9" {
+  match if (option host-name = "R9");
+}
+
+class "R10" {
+  match if (option host-name = "R10");
+}
 
 subnet 10.15.1.0 netmask 255.255.255.0 {
   option routers 10.15.1.254;
@@ -16,7 +46,46 @@ subnet 10.15.1.0 netmask 255.255.255.0 {
 
   pool {
     option host-name "R2";
-    range 10.15.1.20;
+    range 10.15.1.2 10.15.1.2;
+  }
+
+  pool {
+    option host-name "R3";
+    range 10.15.1.3 10.15.1.3;
+  }
+
+    pool {
+    option host-name "R4";
+    range 10.15.1.4 10.15.1.4;
+  }
+
+  pool {
+    option host-name "R5";
+    range 10.15.1.5 10.15.1.5;
+  }
+
+    pool {
+    option host-name "R6";
+    range 10.15.1.6 10.15.1.6;
+  }
+
+  pool {
+    option host-name "R7";
+    range 10.15.1.7 10.15.1.7;
+  }
+
+    pool {
+    option host-name "R8";
+    range 10.15.1.8 10.15.1.8;
+  }
+
+  pool {
+    option host-name "R9";
+    range 10.15.1.9 10.15.1.9;
+  }
+
+    pool {
+    option host-name "R10";
+    range 10.15.1.10 10.15.1.10;
   }
 }
- ### Very important this line

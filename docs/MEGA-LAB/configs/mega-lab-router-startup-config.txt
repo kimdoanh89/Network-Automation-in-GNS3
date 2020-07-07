@@ -25,7 +25,7 @@ ip ssh version 2
 !
 !
 interface Ethernet0/0
- no ip address
+ ip address dhcp hostname %h
  no shutdown
 !
 interface Ethernet0/1
