@@ -30,9 +30,9 @@ automation.
 ### 3. Network management with NETCONF/YANG
 - Configuration of CSR1000v in GNS3 video tutorials: [part 1](https://www.youtube.com/watch?v=5yypbiX1vlI),
 [part 2](https://www.youtube.com/watch?v=xdIHNe2XXvM)
-- [Configuration of CSR1000v notebook](https://nbviewer.jupyter.org/github/kimdoanh89/Network-Automation-in-GNS3/blob/masterdocs/Network-Management-Netconf/00_csr1000v_in_gns3.ipynb)
-- [Configure ssh, netconf, restconf for cisco_ios_xe_16.6](https://nbviewer.jupyter.org/github/kimdoanh89/Network-Automation-in-GNS3/blob/masterdocs/COMET/00_configure_ssh_netconf_restconf_cisco_ios_16.6.ipynb)
-- [Using ncclient to connect to router](docs/Network-Management-Netconf/00_build_topology.ipynb)
+- [Configuration of CSR1000v notebook](https://nbviewer.jupyter.org/github/kimdoanh89/Network-Automation-in-GNS3/blob/master/docs/Network-Management-Netconf/00_csr1000v_in_gns3.ipynb)
+- [Configure ssh, netconf, restconf for cisco_ios_xe_16.6](https://nbviewer.jupyter.org/github/kimdoanh89/Network-Automation-in-GNS3/blob/master/docs/COMET/00_configure_ssh_netconf_restconf_cisco_ios_16.6.ipynb)
+- [Using ncclient to connect to router](https://nbviewer.jupyter.org/github/kimdoanh89/Network-Automation-in-GNS3/blob/master/docs/Network-Management-Netconf/00_build_topology.ipynb)
  
  
 ### 4. Mega-Lab with 200 routers + Nornir, Ansible
