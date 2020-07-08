@@ -41,51 +41,42 @@ class "R10" {
 }
 
 subnet 10.15.1.0 netmask 255.255.255.0 {
-  option routers 10.15.1.254;
   option subnet-mask 255.255.255.0;
-
+  option routers 10.15.1.254;
   pool {
-    option host-name "R2";
+    allow members of "R2";
     range 10.15.1.2 10.15.1.2;
   }
-
   pool {
-    option host-name "R3";
+    allow members of "R3";
     range 10.15.1.3 10.15.1.3;
   }
-
-    pool {
-    option host-name "R4";
+  pool {
+    allow members of "R4";
     range 10.15.1.4 10.15.1.4;
   }
-
   pool {
-    option host-name "R5";
+    allow members of "R5";
     range 10.15.1.5 10.15.1.5;
   }
-
-    pool {
-    option host-name "R6";
+  pool {
+    allow members of "R6";
     range 10.15.1.6 10.15.1.6;
   }
-
   pool {
-    option host-name "R7";
+    allow members of "R7";
     range 10.15.1.7 10.15.1.7;
   }
-
-    pool {
-    option host-name "R8";
+  pool {
+    allow members of "R8";
     range 10.15.1.8 10.15.1.8;
   }
-
   pool {
-    option host-name "R9";
+    allow members of "R9";
     range 10.15.1.9 10.15.1.9;
   }
-
-    pool {
-    option host-name "R10";
+  pool {
+    allow members of "R10";
     range 10.15.1.10 10.15.1.10;
   }
 }

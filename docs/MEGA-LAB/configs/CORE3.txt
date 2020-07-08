@@ -1,0 +1,46 @@
+hostname CORE1
+!
+ip domain name lab.doanh
+username cisco privilege 15 password 0 cisco
+!
+redundancy
+!
+!
+ip tcp synwait-time 5
+ip ssh version 2
+
+interface Loopback0
+ ip address 10.13.1.3 255.255.255.255
+!
+interface Ethernet0/0
+ ip address 10.15.200.3 255.255.255.0
+!
+interface Ethernet0/1
+ ip address 10.15.3.254 255.255.255.0
+ ip helper-address 192.168.134.130
+!
+!
+router eigrp 100
+ network 10.0.0.0
+!
+ip forward-protocol nd
+!
+!
+no ip http server
+no ip http secure-server
+!
+line con 0
+ exec-timeout 0 0
+ privilege level 15
+ logging synchronous
+line aux 0
+ exec-timeout 0 0
+ privilege level 15
+ logging synchronous
+line vty 0 4
+ privilege level 15
+ login local
+ transport input all
+!
+!
+end

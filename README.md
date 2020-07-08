@@ -36,5 +36,5 @@ automation.
  
  
 ### 4. Mega-Lab with 200 routers + Nornir, Ansible
-- [Set up first initial mega-lab](/docs/MEGA-LAB/00_lab_setup_v1.ipynb)
-- [Refine the initial mega-lab](/docs/MEGA-LAB/00_lab_setup_v2.ipynb)
+- [Set up first initial mega-lab](/docs/MEGA-LAB/00_lab_setup_initial.ipynb)
+- [Refine the initial mega-lab](/docs/MEGA-LAB/01_lab_setup_refined.ipynb)
