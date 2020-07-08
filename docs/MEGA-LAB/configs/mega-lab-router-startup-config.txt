@@ -57,6 +57,8 @@ interface Ethernet1/3
  shutdown
 !
 !
+router eigrp 100
+ network 10.0.0.0
 !
 no cdp log mismatch duplex
 !
