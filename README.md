@@ -23,18 +23,19 @@ from GNS3 marketplace, set up a basic lab in GNS3 for network
 automation.
 - Download Network Automation docker container: [part 1](https://www.youtube.com/watch?v=qsXDZTPnlro), 
 [part 2](https://www.youtube.com/watch?v=_iuz6x2vBSw&t=24s)
-- [Setup small lab for Network Automation in GNS3](docs/INE-Python-Network-Automation/01_Lab_setup.ipynb)
-- [Advantages of network automation with Multiple Switches](docs/INE-Python-Network-Automation/02_advantages_of_network_automation.ipynb)
-- [SSH with netmiko library in Python](docs/INE-Python-Network-Automation/03_SSH_with_netmiko.ipynb)
+- [Setup small lab for Network Automation in GNS3](https://nbviewer.jupyter.org/github/kimdoanh89/Network-Automation-in-GNS3/blob/master/docs/INE-Python-Network-Automation/01_Lab_setup.ipynb)
+- [Advantages of network automation with Multiple Switches](https://nbviewer.jupyter.org/github/kimdoanh89/Network-Automation-in-GNS3/blob/master/docs/INE-Python-Network-Automation/02_advantages_of_network_automation.ipynb)
+- [SSH with netmiko library in Python](https://nbviewer.jupyter.org/github/kimdoanh89/Network-Automation-in-GNS3/blob/master/docs/INE-Python-Network-Automation/03_SSH_with_netmiko.ipynb)
 
 ### 3. Network management with NETCONF/YANG
 - Configuration of CSR1000v in GNS3 video tutorials: [part 1](https://www.youtube.com/watch?v=5yypbiX1vlI),
 [part 2](https://www.youtube.com/watch?v=xdIHNe2XXvM)
-- [Configuration of CSR1000v notebook](docs/Network-Management-Netconf/00_csr1000v_in_gns3.ipynb)
-- [Configure ssh, netconf, restconf for cisco_ios_xe_16.6](docs/COMET/00_configure_ssh_netconf_restconf_cisco_ios_16.6.ipynb)
+- [Configuration of CSR1000v notebook](https://nbviewer.jupyter.org/github/kimdoanh89/Network-Automation-in-GNS3/blob/masterdocs/Network-Management-Netconf/00_csr1000v_in_gns3.ipynb)
+- [Configure ssh, netconf, restconf for cisco_ios_xe_16.6](https://nbviewer.jupyter.org/github/kimdoanh89/Network-Automation-in-GNS3/blob/masterdocs/COMET/00_configure_ssh_netconf_restconf_cisco_ios_16.6.ipynb)
 - [Using ncclient to connect to router](docs/Network-Management-Netconf/00_build_topology.ipynb)
  
  
 ### 4. Mega-Lab with 200 routers + Nornir, Ansible
-- [Set up first initial mega-lab](/docs/MEGA-LAB/00_lab_setup_initial.ipynb)
-- [Refine the initial mega-lab](/docs/MEGA-LAB/01_lab_setup_refined.ipynb)
+- [Set up first initial mega-lab](https://nbviewer.jupyter.org/github/kimdoanh89/Network-Automation-in-GNS3/blob/master/docs/MEGA-LAB/00_lab_setup_initial.ipynb)
+- [Refine the initial mega-lab](https://nbviewer.jupyter.org/github/kimdoanh89/Network-Automation-in-GNS3/blob/master/docs/MEGA-LAB/01_lab_setup_refined.ipynb)
+- [DHCP config with Python/Jinja]()
