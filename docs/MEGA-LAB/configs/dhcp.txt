@@ -1,3 +1,8 @@
+default-lease-time 600;
+max-lease-time 7200;
+
+ddns-update-style none;
+
 option domain-name "lab.doanh";
 option domain-name-servers 192.168.134.1;
 
