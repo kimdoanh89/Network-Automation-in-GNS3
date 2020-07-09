@@ -36,6 +36,8 @@ automation.
  
  
 ### 4. Mega-Lab with 200 routers + Nornir, Ansible
+Thanks to [the great streaming series from Dmitry Figol](https://www.youtube.com/watch?v=Lwj4xwKXWvI&list=PLSwGHYY8t8JitIVQfb-yqqHOrixUOwGtR).
+
 - [Set up first initial mega-lab](https://nbviewer.jupyter.org/github/kimdoanh89/Network-Automation-in-GNS3/blob/master/docs/MEGA-LAB/00_lab_setup_initial.ipynb)
 - [Refine the initial mega-lab](https://nbviewer.jupyter.org/github/kimdoanh89/Network-Automation-in-GNS3/blob/master/docs/MEGA-LAB/01_lab_setup_refined.ipynb)
 - [DHCP config with Python/Jinja](https://nbviewer.jupyter.org/github/kimdoanh89/Network-Automation-in-GNS3/blob/master/docs/MEGA-LAB/02_DHCP_config_with_python_jinja.ipynb)
