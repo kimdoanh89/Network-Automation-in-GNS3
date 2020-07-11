@@ -10,6 +10,8 @@ NUMBER_PER_GROUP = 100
 # dhcp ip address: 10.15.1.2/24
 # default gateway: 10.15.1.254
 # 1-100 : group 1
+
+
 class Device:
     def __init__(self, hostname: str, mgmt_int: IPv4Interface) -> None:
         self.hostname = hostname
@@ -23,7 +25,7 @@ class Device:
         group = (num-1) // NUMBER_PER_GROUP + 1
         num_in_group = (num-1) % NUMBER_PER_GROUP + 1
         hostname = f"R{num}"
-        mgmt_int = ip_interface(MGMT_INT_TEMPLATE.format(group=group, number = num_in_group))
+        mgmt_int = ip_interface(MGMT_INT_TEMPLATE.format(group=group, number=num_in_group))
         device = cls(hostname=hostname, mgmt_int=mgmt_int)
         return device
 
@@ -45,7 +47,3 @@ class Device:
     def mgmt_int_network (self) -> str:
         result = self.mgmt_int.network.network_address
         return str(result)
-
-
-
-    

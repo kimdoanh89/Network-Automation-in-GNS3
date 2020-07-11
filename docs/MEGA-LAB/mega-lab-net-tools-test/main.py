@@ -15,7 +15,8 @@ async def generate_dhcp_config():
 
 async def main():
     await generate_dhcp_config()
-    gns3_project = await GNS3Project.fetch_from_id(PROJECT_ID)
+    nodes_data = await GNS3Project.fetch_from_id(PROJECT_ID)
+    breakpoint()
 
 
 if __name__ == "__main__":

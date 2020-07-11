@@ -26,3 +26,4 @@ class GNS3Project:
             await asyncio.gather(get_nodes_task, get_links_task)
             nodes_data = get_nodes_task.result().json()
             links_data = get_links_task.result().json()
+        return nodes_data

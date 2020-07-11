@@ -41,3 +41,4 @@ Thanks to [the great streaming series from Dmitry Figol](https://www.youtube.com
 - [Set up first initial mega-lab](https://nbviewer.jupyter.org/github/kimdoanh89/Network-Automation-in-GNS3/blob/master/docs/MEGA-LAB/00_lab_setup_initial.ipynb)
 - [Refine the initial mega-lab](https://nbviewer.jupyter.org/github/kimdoanh89/Network-Automation-in-GNS3/blob/master/docs/MEGA-LAB/01_lab_setup_refined.ipynb)
 - [DHCP config with Python/Jinja](https://nbviewer.jupyter.org/github/kimdoanh89/Network-Automation-in-GNS3/blob/master/docs/MEGA-LAB/02_DHCP_config_with_python_jinja.ipynb)
+- [Add hundreds of nodes using GNS3 API](https://nbviewer.jupyter.org/github/kimdoanh89/Network-Automation-in-GNS3/blob/master/docs/MEGA-LAB/03_GNS3_API_add_nodes.ipynb)
