@@ -2,7 +2,7 @@ import attr
 from typing import Dict, Any
 
 
-@attr.s(auto_attribs=True, repr=False, kw_only=True)
+@attr.s(auto_attribs=True, kw_only=True)
 class GNS3Node:
     id: str
     type: str

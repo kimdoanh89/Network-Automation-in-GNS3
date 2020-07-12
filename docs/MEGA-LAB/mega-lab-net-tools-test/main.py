@@ -3,6 +3,9 @@ import aiofiles
 from jinja2 import Environment, FileSystemLoader
 from app.contants import PROJECT_ID
 from app.gns3_project import GNS3Project
+from app.device import Device
+
+MAX_NUMBER_ROUTER = 1000
 
 
 async def generate_dhcp_config():
@@ -14,9 +17,11 @@ async def generate_dhcp_config():
 
 
 async def main():
+    devices = [Device.from_sequence_num(i) for i in range(1, MAX_NUMBER_ROUTER + 1)]
     await generate_dhcp_config()
     gns3_project = await GNS3Project.fetch_from_id(PROJECT_ID)
     breakpoint()
+    # TODO: Add asyncio context manager
 
 
 if __name__ == "__main__":
