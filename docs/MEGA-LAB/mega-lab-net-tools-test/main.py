@@ -9,13 +9,13 @@ async def generate_dhcp_config():
     env = Environment(loader=FileSystemLoader("app/templates"))
     template = env.get_template('dhcp2.j2')
     msg = template.render()
-    async with aiofiles.open("output/dhcpd.conf", "w") as f:
+    async with aiofiles.open("output/dhcpd2.conf", "w") as f:
         f.write(msg)
 
 
 async def main():
     await generate_dhcp_config()
-    nodes_data = await GNS3Project.fetch_from_id(PROJECT_ID)
+    gns3_project = await GNS3Project.fetch_from_id(PROJECT_ID)
     breakpoint()
 
 
