@@ -1,0 +1,21 @@
+---
+- name: Gather commands
+  hosts: Switch1
+  vars:
+    commands:
+      - show version
+      - show ip int br
+      - show memory statistics
+      - show arp
+      - show ip route
+  tasks:
+    - name: Gather commands
+      ios_command:
+        commands: "{{ commands }}"
+      register: output
+
+    - name: save output to a file
+      copy:
+        content: "{{output.stdout | zip(commands) |
+        reverse | flatten | join('\n') }}"
+        dest: "output/{{ inventory_hostname }}.txt"
