@@ -138,10 +138,12 @@ We run the Ansible playbook to gather information:
 - show memory statistics
 - show arp
 - show ip route
+
 The command to run is as follow:
 ```bash
 ansible-playbook -i inventory gather_commands.yml
 ```
+
 Output:
 ```bash
 PLAY [Gather commands] ************************************************************************************************************
